@@ -3,6 +3,7 @@ package com.example.guardarclaves;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
@@ -20,13 +21,13 @@ public class ImportacionClaves extends AppCompatActivity {
         btnImportar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Log.d("TAG_", "Hola");
             }
         });
         btnVolver.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Log.d("TAG_", "Hola Mundo");
             }
         });
     }
