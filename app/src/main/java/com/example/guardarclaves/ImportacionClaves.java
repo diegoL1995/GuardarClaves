@@ -2,6 +2,7 @@ package com.example.guardarclaves;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -27,6 +28,8 @@ public class ImportacionClaves extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
+                Intent volverM = new Intent(ImportacionClaves.this, Menu.class);
+                startActivity(volverM);
             }
         });
     }
