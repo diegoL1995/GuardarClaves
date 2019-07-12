@@ -78,7 +78,8 @@ public class Registro extends AppCompatActivity {
             etCorreo.setText("");
             etClave.setText("");
             etClaveDos.setText("");
+            //
         }
 
-    }
+}
 }
