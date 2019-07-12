@@ -17,7 +17,7 @@ public class Menu extends AppCompatActivity {
         setContentView(R.layout.activity_menu);
 
         btnIngresarC = findViewById(R.id.btnIngresarC);
-        btnBorrarU = findViewById(R.id.btnBorrarU);
+        btnBorrarU = findViewById(R.id.btnDestruccion);
         btnImportar = findViewById(R.id.btnImortar);
 
         btnIngresarC.setOnClickListener(new View.OnClickListener() {
