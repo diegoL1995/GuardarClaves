@@ -29,9 +29,9 @@ public class MainActivity extends AppCompatActivity {
         etClave = findViewById(R.id.etClave);
         btnIngresar = findViewById(R.id.btnIngresar);
         btnRegistroL = findViewById(R.id.btnRegistrarL);
-        SharedPreferences incorporar = getSharedPreferences("chao", Context.MODE_PRIVATE);
 
-        ponerNombre();
+        etUsuario.setText(usuario.getNombre());
+        //ponerNombre();
 
 
         btnIngresar.setOnClickListener(new View.OnClickListener() {
